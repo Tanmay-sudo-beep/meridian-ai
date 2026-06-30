@@ -1,1 +1,21 @@
+.env
 
+.venv/
+venv/
+env/
+
+__pycache__/
+*.py[cod]
+*.pyo
+
+.vscode/
+.idea/
+
+.DS_Store
+
+.streamlit/
+
+chroma_db/
+faiss_index/
+
+*.log
