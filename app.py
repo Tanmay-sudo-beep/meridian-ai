@@ -509,7 +509,7 @@ st.markdown("<div style='height:1.5rem'></div>", unsafe_allow_html=True)
 
 
 def run_pipeline(q):
-    from checkey import build_graph   # ← changed
+    from main import build_graph   # ← changed
 
     pdf_path = st.session_state.get("pdf_path")
     if not pdf_path:
